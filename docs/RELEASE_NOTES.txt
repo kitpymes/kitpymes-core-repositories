@@ -1,0 +1,8 @@
+# v.1.0.2
+- Se migra de la versión netcoreapp3 a net5 y se actualizan librerías.
+
+# v.1.0.1
+- Se modifican consultas para la paginación y ordenamiento.
+
+# v.1.0.0
+- Se genera la primera versión del paquete del proyecto.
