@@ -1,8 +1,22 @@
+# v.2.0.0
+Versi贸n mayor: rompe a quien venga de la 1.x. Abajo, qu茅 cambia y c贸mo migrar.
+
+- Requiere .NET 10 o superior (la 1.0.2 era .NET 5).
+- PagedOptions incorpora Properties para indicar por qu茅 campos ordenar.
+- El c贸digo pasa a github.com/kitpymes/kitpymes-core-repositories y el paquete se publica desde GitHub Actions.
+
+## Cambios incompatibles y c贸mo migrar desde 1.x
+
+- Find(key) y FindAsync(key) -> GetByKey(params object[] keyValues) y GetByKeyAsync(...): admiten claves compuestas.
+- GetOne(...) y GetOneAsync(...) -> Get(...) y GetAsync(...): devuelven null si no hay resultado.
+- GetPaged(...) y GetPagedAsync(...) -> GetAllPaged(...) y GetAllPagedAsync(...).
+- En los repositorios relacionales (IQueryRelationalRepository) cambian igual GetOne y GetPaged.
+
 # v.1.0.2
-- Se migra de la versi髇 netcoreapp3 a net5 y se actualizan librer韆s.
+- Se migra de la versi贸n netcoreapp3 a net5 y se actualizan librer铆as.
 
 # v.1.0.1
-- Se modifican consultas para la paginaci髇 y ordenamiento.
+- Se modifican consultas para la paginaci贸n y ordenamiento.
 
 # v.1.0.0
-- Se genera la primera versi髇 del paquete del proyecto.
+- Se genera la primera versi贸n del paquete del proyecto.

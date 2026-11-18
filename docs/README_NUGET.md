@@ -1,14 +1,14 @@
 ﻿**Repositorios para acceder a las bases de datos**
 
-[![Build Status](https://github.com/kitpymes/template-netcore-repositories/workflows/Kitpymes.Core.Repositories/badge.svg)](https://github.com/kitpymes/template-netcore-repositories/actions) [![NuGet Status](https://img.shields.io/nuget/v/Kitpymes.Core.Repositories)](https://www.nuget.org/packages/Kitpymes.Core.Repositories/) [![NuGet Download](https://img.shields.io/nuget/dt/Kitpymes.Core.Repositories)](https://www.nuget.org/stats/packages/Kitpymes.Core.Repositories?groupby=Version) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/kitpymes/template-netcore-repositories/blob/master/docs/LICENSE.txt) [![Size Repo](https://img.shields.io/github/repo-size/kitpymes/template-netcore-repositories)](https://github.com/kitpymes/template-netcore-repositories/) [![Last Commit](https://img.shields.io/github/last-commit/kitpymes/template-netcore-repositories)](https://github.com/kitpymes/template-netcore-repositories/) 
+[![Build Status](https://github.com/kitpymes/kitpymes-core-repositories/actions/workflows/ci.yml/badge.svg)](https://github.com/kitpymes/kitpymes-core-repositories/actions/workflows/ci.yml) [![NuGet Status](https://img.shields.io/nuget/v/Kitpymes.Core.Repositories)](https://www.nuget.org/packages/Kitpymes.Core.Repositories/) [![NuGet Download](https://img.shields.io/nuget/dt/Kitpymes.Core.Repositories)](https://www.nuget.org/stats/packages/Kitpymes.Core.Repositories?groupby=Version) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/kitpymes/kitpymes-core-repositories/blob/master/docs/LICENSE.txt) [![Size Repo](https://img.shields.io/github/repo-size/kitpymes/kitpymes-core-repositories)](https://github.com/kitpymes/kitpymes-core-repositories/) [![Last Commit](https://img.shields.io/github/last-commit/kitpymes/kitpymes-core-repositories)](https://github.com/kitpymes/kitpymes-core-repositories/) 
 
 ## 📋 Requerimientos 
 
-* Visual Studio = 2022
+* Visual Studio 2026 o superior
 
-* NET TargetFramework = net8.0
+* NET TargetFramework = net10.0
 
-* Net Core SDK = 8.0.x
+* SDK de .NET = 10.0.x
 
 * C# = 12
 
@@ -48,7 +48,7 @@ dotnet add package Kitpymes.Core.Repositories
 
 ## 📄 Licencia 
 
-* Este proyecto está bajo la Licencia [LICENSE](https://raw.githubusercontent.com/kitpymes/template-netcore-validations/master/docs/LICENSE.txt)
+* Este proyecto está bajo la Licencia [LICENSE](https://raw.githubusercontent.com/kitpymes/kitpymes-core-repositories/master/docs/LICENSE.txt)
 
 
 ## 🎁 Gratitud 
