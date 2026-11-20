@@ -10,7 +10,7 @@
 
 * SDK de .NET = 10.0.x
 
-* C# = 12
+* C# = 14
 
 * Conocimientos sobre Inyección de Dependencias
 

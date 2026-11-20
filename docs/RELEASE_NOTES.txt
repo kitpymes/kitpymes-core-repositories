@@ -1,3 +1,8 @@
+# v.2.0.1
+- PagedOptions: Index y Size valen 1 y 20 por defecto (antes 0 y 0). Con Shared 2.0.1, que valida que la página y el tamaño sean al menos 1, pedir una página sin indicarlos lanzaba una excepción.
+- Index es el número de página, empezando en 1.
+- Descripción del paquete propia (era la de Validations) y README con C# 14.
+
 # v.2.0.0
 Versión mayor: rompe a quien venga de la 1.x. Abajo, qué cambia y cómo migrar.
 

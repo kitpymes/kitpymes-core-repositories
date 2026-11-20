@@ -32,12 +32,12 @@ public class PagedOptions
     public bool Ascending { get; set; }
 
     /// <summary>
-    /// Obtiene o establece el indice desde donde se empieza a obtener los items.
+    /// Obtiene o establece el número de página, empezando en 1. Por defecto, 1.
     /// </summary>
-    public int Index { get; set; }
+    public int Index { get; set; } = 1;
 
     /// <summary>
-    /// Obtiene o establece la cantidad de items a obtener.
+    /// Obtiene o establece la cantidad de items por página. Por defecto, 20.
     /// </summary>
-    public int Size { get; set; }
+    public int Size { get; set; } = 20;
 }
